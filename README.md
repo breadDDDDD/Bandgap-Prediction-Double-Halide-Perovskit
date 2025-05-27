@@ -1,9 +1,10 @@
 # Energy Bandgap on Double Halide Perovskites Analysis, Machine Learning Approach on Bandgap Predictions
 
 In this experiment, data on 540 double halide perovskites will be used to predict the crystal's bandgap using various machine learning models, where feature selection will be used to identify features with high correlation to the bandgap and be applied in training the model.
-The dataset after being cleaned is present in this repository as 2halide.csv
+
 
 Data used in this experiment originated from a online material repository, where that data available are based on DFT calculations. Due to the data, the prediction made by the model will also be based on DFT calculations. DFT underestimates the bandgap in their calculation, so the prediction done will also have it's bandgap underestimated.
+The dataset after being cleaned is present in this repository as 2halide.csv
 
 ## Analysis
 Inside the JupyterNotebook, the analysis of model selection, data preparations, and selection of features are present. The model used in the application file is built and designed inside this notebook. Since the task is relatively straightforward and we're testing different models, we opted to use a Scikit-learn-based approach. All analysis done using and for the model is done within this notebook.
